@@ -5,6 +5,8 @@
 body{
 	background-color:#547474;
 	font-size: 21px;
+	display: flex;
+	flex-direction: column;
 }
 #main{
 	margin-left: 35%;
@@ -79,8 +81,7 @@ background-color: red;
 footer{
 	font-size: 12px;
     padding: 10px;
-	margin-top: 30.2%;
-	margin-bottom: 0;
+	margin-top: auto;
     color: #ffffff;
     background-color: #486b07;
     text-align: center;
