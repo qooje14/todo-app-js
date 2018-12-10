@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-color:#547474;
+	font-size: 21px;
+}
+#main{
+	margin-left: 35%;
+}
+header{
+    background: #4a4a35;
+    color: #ffffff;
+	min-height: 60px;
+	border-bottom: #a1e81d 3px solid;
+}
+ h1{
+     margin-bottom: 2px;;
+    padding: 10px;
+    text-align: center;
+}
+.h1{
+	font-family: 'Courier New', Courier, monospace;
+	margin-top: 1.5%;
+	color: #302f35;
+}
+input{
+	margin-top: 30px;
+	width: 180px;
+	height: 35px;
+}
+button{
+	text-shadow: rgb(175, 7, 7);
+	color: #ffffff;
+	border-radius: 100%;
+	width: 4.5%;
+	height: 4.5%;
+	border-style: hidden;
+	background-color: hsla(131, 7%, 46%, 0.918);
+}
+button:hover{
+	background-color: #a1e81d;
+}
+
+#addTodo:disabled{
+	background-color: #e41919;
+}
+
+li{
+	margin-left: 0;
+	display: block;
+}
+/*when LI is hovered show Deletebtn*/
+li:hover .deleteTodoBtn{
+	color: #00ffff;
+	display: inline;
+}
+/*deltebtn must be displayed none*/
+.deleteTodoBtn{
+	color: #ffffff;
+	display: none;
+	border-radius: 100%;
+	width: 4.5%;
+	height: 4.5%;
+	border-style: hidden;
+	margin-left: 8px;
+	margin-right: 0;
+	margin-top: 4px;
+	background-color: hsla(131, 7%, 46%, 0.918);
+}
+.deleteTodoBtn:hover{
+background-color: red;
+}
+
+#counter{
+	color: #1a1919;
+}
+footer{
+	font-size: 12px;
+    padding: 10px;
+	margin-top: 28.5%;
+	margin-bottom: 0;
+    color: #ffffff;
+    background-color: #486b07;
+    text-align: center;
+    }
