@@ -86,3 +86,7 @@ footer{
     background-color: #486b07;
     text-align: center;
     }
+
+footer p{
+float:right;
+}
