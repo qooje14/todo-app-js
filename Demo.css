@@ -89,14 +89,14 @@ background-color: red;
 float:right;
 }
 footer{
-	font-size: 12px;
+	font-size: 10px;
     padding: 10px;
 	margin-top: auto;
- 
+ margin-botton:auto;
     text-align: center;
     }
 
 footer p{
 float:right;
-	backgroun-color:red;
+	
 }
