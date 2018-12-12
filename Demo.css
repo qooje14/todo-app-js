@@ -17,6 +17,10 @@ header{
 	min-height: 60px;
 	border-bottom: #a1e81d 3px solid;
 }
+.hightlight{
+	color: #e8491d;
+    font-weight: bold;
+}
  h1{
      margin-bottom: 2px;;
     padding: 10px;
