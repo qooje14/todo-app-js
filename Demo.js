@@ -1,4 +1,3 @@
-if ('this_is'==/an_example/){of_beautifier();}else{var a=b?(c%d):e[f];}
 function addTodo(todo) {
   let toDoELement = document.getElementById("todoList");
   let newLiEl = document.createElement("li");
