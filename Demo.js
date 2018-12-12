@@ -40,10 +40,10 @@ function clearInput() {
 function onTodoClick() {
   let todo = getTodoFromInput();
   if (todo === "") {
-    alert("twitter empety");
+    alert(" your To-Do is empety");
 
   } else if (inputControl(todo) === false) {
-    alert("please write a nice tweet!")
+    alert("please write a nice To-Do!")
 
   } else {
     addTodo(todo);
