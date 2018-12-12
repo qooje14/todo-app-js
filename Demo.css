@@ -85,6 +85,9 @@ background-color: red;
 #counter{
 	color: #1a1919;
 }
+#left{
+float:left;
+}
 footer{
 	font-size: 12px;
     padding: 10px;
