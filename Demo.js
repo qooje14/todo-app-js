@@ -102,4 +102,4 @@ inputEl = addEventListener("input", onInput)
 inputEl = addEventListener("keypress", onInputKey)
 // initialize the page for the first time
 onInput();
-//TODO: hover the buttons
+
