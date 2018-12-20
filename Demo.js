@@ -46,8 +46,9 @@ function onTodoClick() {
     alert("please write a nice To-Do!")
 
   } else {
-    addTodo(todo);
     clearInput();
+    addTodo(todo);
+      
    
     onInput();
   }
