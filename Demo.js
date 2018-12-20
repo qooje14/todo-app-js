@@ -48,7 +48,7 @@ function onTodoClick() {
   } else {
     addTodo(todo);
 
-    clearInput();
+   
     onInput();
   }
 }
