@@ -84,7 +84,7 @@ function inputControl(todo) {
 
 
 function onInputKey(event) {
-  if (event.key === "Ente") {
+  if (event.key === "Enter") {
     onTodoClick();
   }
 
