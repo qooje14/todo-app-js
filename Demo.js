@@ -2,12 +2,8 @@ function addTodo(todo) {
   let toDoELement = document.getElementById("todoList");
   let newLiEl = document.createElement("li");
   newLiEl.textContent = todo;
-
-  //console.log("wawaw");
-
   // now it's the time to create delete function👌😂
-
-  function onDeleteTodo() {
+function onDeleteTodo() {
     newLiEl.remove();
   }
   let deleteTodoBtn = document.createElement("button");
@@ -22,9 +18,8 @@ function addTodo(todo) {
 
 
 
-
-function getTodoFromInput() {
 // create a function which gets todo from input
+function getTodoFromInput() {
   let todoInputEl = document.getElementById("todoInput");
   // return a string with inputcontent
   return todoInputEl.value;
