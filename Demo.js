@@ -31,7 +31,7 @@ function clearInput() {
   let inputEl = document.getElementById("todoInput");
   inputEl.value = "";
 }
-
+// create a function to click the the button.
 function onTodoClick() {
   let todo = getTodoFromInput();
   if (todo === "") {
